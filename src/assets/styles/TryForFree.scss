@@ -1,0 +1,20 @@
+@import "constants";
+
+.try-for-free {
+  background: url(../../f90edcc81f01b3c242bc9b41b61f092b.jpg) 50% 50% no-repeat rgba(0,0,0, 0.3);
+  background-size: 100%;
+
+  color: $defaultTextColor;
+  .filter{
+    background-color: rgba(47,45,71, 0.54);
+  }
+  .container {
+    padding: 150px 0;
+    .main-title {
+      line-height: 1.4;
+    }
+    .semi-title {
+      margin: 30px 0 ;
+    }
+  }
+}

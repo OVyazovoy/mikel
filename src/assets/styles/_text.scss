@@ -1,0 +1,32 @@
+/*
+font sizes
+*/
+@mixin text-size($size) {
+  .text--size-#{$size} {
+    font-size: #{$size}px;
+  }
+}
+@include text-size(13);
+@include text-size(18);
+@include text-size(20);
+@include text-size(22);
+@include text-size(48);
+
+
+@mixin text-weight($size) {
+  .text--weight-#{$size} {
+    font-weight: #{$size};
+  }
+}
+@include text-weight(700);
+
+
+@mixin text-align($size) {
+  .text--align-#{$size} {
+    text-align: #{$size};
+  }
+}
+@include text-align(left);
+@include text-align(right);
+@include text-align(center);
+

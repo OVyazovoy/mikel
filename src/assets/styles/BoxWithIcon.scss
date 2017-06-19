@@ -1,0 +1,28 @@
+@import "constants";
+@import "common";
+
+.box-with-icon {
+  @extend .clearfix;
+  width: 500px;
+  padding: 15px;
+  box-sizing: border-box;
+  .icon {
+    @extend .pull-left;
+    width: 22%;
+    height: 100%;
+    margin: 0 auto;
+    img{
+      width: 53px;
+    }
+  }
+  .text-wrapper {
+    @extend .pull-left;
+    width: 78%;
+    .inner-title{
+      margin-bottom: 20px;
+    }
+    .inner-text{
+      line-height: 1.3;
+    }
+  }
+}

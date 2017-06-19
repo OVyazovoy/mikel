@@ -1,0 +1,12 @@
+@import "constants";
+header{
+  height: 106px;
+  background-color: #252830;
+  color: $defaultTextColor;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+}

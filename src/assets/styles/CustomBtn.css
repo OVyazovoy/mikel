@@ -1,0 +1,11 @@
+.custom-btn {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  background: #2084d6;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
